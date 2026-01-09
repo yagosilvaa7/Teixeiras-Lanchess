@@ -1,0 +1,15 @@
+/* Estilos específicos para a página Contato */
+
+* {
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img.logo {
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 100px;
+    align-items: center;
+}

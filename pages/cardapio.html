@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cardapio.css">
+    <title>Cardápio - Teixeira Lanches</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="../index.html" class="logo-link">← Voltar</a>
+        <h1 class="titulo-pagina">Cardápio</h1>
+        <div class="filtro-container">
+            <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+            <button class="filtro-btn" data-filtro="artesanal">Artesanais</button>
+            <button class="filtro-btn" data-filtro="hamburguer">Hambúrgueres</button>
+            <button class="filtro-btn" data-filtro="pizza">Pizzas</button>
+            <button class="filtro-btn" data-filtro="bebida">Bebidas</button>
+            <button class="filtro-btn" data-filtro="acrescimo">Acres e Molhos</button>
+        </div>
+    </header>
+
+    <!-- Cardápio -->
+    <main class="cardapio-container">
+        <div class="cardapio-grid" id="cardapioGrid"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Teixeira Lanches</p>
+        <p>Pedidos: <a href="https://wa.me/553232161906" target="_blank">WhatsApp</a></p>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="botaoTopo" class="botao-topo" title="Voltar ao topo">↑</button>
+
+    <script src="cardapio.js"></script>
+</body>
+
+</html>
